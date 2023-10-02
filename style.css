@@ -1,0 +1,329 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
+  body{
+
+    margin: 0;
+    background-color: white;
+    font-family: Lato, sans-serif;
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    /* overflow-x: hidden; */
+    scrollbar-width: none;
+}
+@media screen and (max-width: 1000px){
+    body{
+    scrollbar-width: none;}
+}
+nav #img{
+    width: 90px;
+    padding: 9px 16px;
+    cursor: pointer;
+}
+#nav{
+    background-color:rgb(25, 20, 20) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+header{
+    display: flex;
+}
+#bar{
+    margin-right: 30px;
+    padding: 10px;
+}
+
+#icon{
+background-color: rgb(25, 20, 20);
+cursor: pointer;
+border: none; 
+/* padding: 19px; */
+overflow: hidden;
+font-size: 15px;
+}
+
+
+/* display head screen */
+
+
+#display{
+    width: 100%;
+    height: auto;
+    background:linear-gradient(to bottom, rgb(69, 109, 219), rgb(33, 74, 187)) ;
+    /* margin-top: -20px; */
+}
+#info{
+    color: white;
+    font-weight: 900;
+    margin-top: auto;
+    font-family: Lato, sans-serif;
+    /* // padding: 5px; */
+    color: white;
+    font-size: 49px;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -1.92px;
+    padding-bottom: 32px;
+    text-shadow: none;
+    padding: 80px 15px 0px 15px;
+}
+#shopBtn{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: white;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 14px 15px;
+    min-inline-size: 0px;
+    color: black;
+    width: 190px;
+    margin-top: -5px;
+    left: 4%;
+    font-weight: 700;
+    margin-bottom: 68px;
+}
+/* content list items*/
+#why{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+#qus{
+    font-size: 30px;
+    font-weight: 900;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 175px;
+}
+ul li {
+    list-style-type: none;
+    display: flex;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+/* making circular item to display */
+.outer{
+     width: 100px;
+      height: 100px;
+      
+}
+.out{
+   width: 6em;
+    background: linear-gradient(to bottom,rgb(55, 98, 214), rgb(40, 73, 165));
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.in{
+    width: 50%;
+    background-color: white;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/* Text of why spotify.? */
+.text{
+    margin-left: 14px;
+    margin-top: -4px;
+}
+.bar,.bolt{
+    font-size: 38px;
+}
+.text h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+/* mobile view for mobile */
+/* #card {
+    margin-top: -80px;
+} */
+.circle{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.circle1{
+
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.circle2{
+
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.half-cir{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(33, 74, 187);
+    border-radius: 50%;
+    margin: 20px 0px 0px 60px;
+    
+}
+.full-cir{
+    width: 270px;
+    height: 270px;
+    background-color: rgb(33, 74, 187);
+    border-radius: 50%;
+    margin: 100px -100px 0px 0px;
+}
+#card{
+    z-index: 1;
+    margin: 0%;
+}
+#mob{
+    /* position: absolute; */
+    margin: auto;
+     margin-top: -360px ;
+     z-index: 2;
+     display: flex;
+     justify-content: center;
+}
+.mobile-view{
+    width: 250px;
+    height: 440px;
+    background-color: white;
+    border-radius: 35px;
+    
+    box-shadow: 0px 0px 8px black;
+   
+}
+.spk-blk{
+    width: 100%;
+    height: 60px;
+    border-radius: 35px;
+}
+.speaker{
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin-left: 6em;
+    margin-top: 20px;
+    padding: auto;
+    border-radius: 20px;
+}
+#mobile{
+     margin-top: auto;
+}
+#mob-img{
+    margin-left: 13px;
+    width: 90%;
+    height: 100%;
+    
+}
+#color{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background:linear-gradient(to bottom , rgb(33, 74, 187,0.1),rgb(33, 74, 187,0.7),rgb(33, 74, 187), rgb(33, 74, 187)) ;
+    filter: blur(4px);
+    z-index: 3;
+    margin-top: -147px;
+}
+#mid-head{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(33, 74, 187 );
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;z-index: 4;
+    margin-top: -90px;
+}
+.h{
+    line-height: 0.3;
+    font-size: xx-large ;
+    color: white;
+    font-weight: 900;
+    
+}
+.got{
+    margin-top: 160px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#question{
+    width: 100%;
+}
+#qslist{
+    margin-left: 30px;
+    margin-right: 130px;
+}
+details{
+    width: 100%;
+}
+.qusItems{
+    list-style-type: none;
+    width: 100%;
+    
+}
+summary{
+    list-style-type: none;
+    padding: 10px;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* Display list content media */
+@media screen and (min-width: 750px) {
+    #list{
+        display: grid;
+        grid-template-columns : auto auto;
+        column-gap: 40px;
+        justify-content: space-evenly;
+    }
+    .items{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #why{
+        margin-top: 50px;
+    margin-bottom: 60px;}
+    #img{
+        margin-left:12px ;
+        margin-top: 5px;
+    }
+    #nav{
+        padding: 8px;
+    }
+    #display{
+        height: 450px;
+    }
+    #info{
+        max-width: 600px;
+        font-size: 54px;
+        margin-left: 10px;
+
+    }
+}
